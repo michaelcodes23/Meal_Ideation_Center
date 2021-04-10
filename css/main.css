@@ -1,0 +1,101 @@
+/* Added background image to html */
+html{
+    background: url("https://i.imgur.com/iJo3t8j.jpg") no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+
+}
+
+body{
+    text-align: center;
+    /* background: url("https://i.imgur.com/Owhrqzd.jpg") no-repeat center; */
+
+
+    color: white;
+}
+h6{
+    margin-top: 0px;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+/* table{
+    margin-left:auto; 
+    margin-right:auto;
+} */
+.help{
+    margin-bottom: 10px;
+}
+/* Adding a obscure banner within each bodyElement ID to make white font more visible */
+#bodyElements{
+    background: rgba(0, 0, 0, 0.5);
+}
+a{
+    color: white;
+}
+/* Adding white border to image */
+.imageRecipe{
+    border: 2px solid white;
+    width: 100px;
+    height: auto;
+    transition: transform .2s;
+}
+.tab{
+
+    display: flex;
+    flex-flow: nowrap;
+    justify-content: center;
+    margin-left:auto; 
+    margin-right:auto;
+}
+.Rec1, .Rec2, .Rec3{
+    max-width: 33%;
+    padding: 5px;
+}
+.Rec1, .Rec2{
+    border-right-style: solid;
+}
+.bottom{
+    margin-left:auto; 
+    margin-right:auto;
+}
+.recTitle{
+    transition: transform .2s;
+}
+.output{
+    margin-left:auto; 
+    margin-right:auto;
+}
+
+
+.recTitle:hover, .imageRecipe:hover {
+    font-weight: bold;
+    transform: scale(1.25);
+}
+.refreshButton{
+    margin-top: 10px;
+    line-height: 60px;
+    font-weight: bold; 
+    padding: 0 40px;
+    background: black;
+    color: white;
+    display: block;
+    margin-left:auto; 
+    margin-right:auto;
+}
+button:hover {
+  background: white;
+  color: black;
+}
+
+@media only screen and (max-width: 600px) {
+    .tab{
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+    }
+    /* .Rec1{
+        width:100%;
+    } */
+
+}

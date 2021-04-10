@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+    <script src = "js/app.js" charset="utf-8"></script>
+    <link rel = "stylesheet" href = "css/main.css">
+    <title>Assorted Culinary Ideas</title>
+</head>
+<body>
+    <div id = "bodyElements">
+    <!-- Creating a heading for my meal prep app -->
+    <h1>Welcome to Your Meal Ideation Center</h1>
+    <h3 class = "help">Help us Tailor Your Culinary Experience Below:</h3>
+    <h6>(Lookout for spelling errors when submitting)</h6>
+
+    </div>
+    <div class = "container" id="bodyElements">
+        <div class = "formDiv" id="bodyElements">
+            <form id ="q">
+                <label for="q entry">What are you craving for (1 request)? (e.g. Chicken, steak, seafood, etc.)</label>
+                <input type="text"/>
+                <input type="submit" name="Submit"/>
+            </form>
+        </div>
+    <!-- Creating a dropdown menu for useres to choose their meal of the day -->
+        <div class = "meal" id = "bodyElements">
+            <h2>What meal of the day are you having?</h2>
+            <form id = "mealForm">
+                <label for="meal">Meal / Time of Day:</label>
+                <select id="mealDown" name = "meal">
+                    <option></option>
+                    <option>Breakfast</option>
+                    <option>Lunch</option>
+                    <option>Dinner</option>
+                    <option>Snack</option>
+                </select>
+            </form>
+        </div>
+    <!-- Creating a drop down menu for cuisine type -->
+        <div class ="cuisine" id="bodyElements">
+            <h2>What cuisine would you like to explore?</h2>
+            <form id = "cuisineForm">
+                <label for="cuisine">Choose your Cuisine Type</label>
+                <select id="cuisineDown" name = "cuisine" class = "cusType">
+            <!-- testing adding to dropdown below -->
+                <!-- <option value ="american" >American</option>
+                <option value ="italian" selected>Italian</option>
+                <option value ="italian">Mexican</option> -->
+                </select>
+            </form>
+        </div>
+        <!-- Creating a selector for amount of calories -->
+        <div class ="calories" id="bodyElements">
+            <h2>What is the desired calorie count, per serving, in your meal</h2>
+            <form id = "checkbox">
+                <label><input type="radio" id = "check" name = "cal">Less than 500</label>
+                <label><input type="radio" id = "check"  name = "cal">500 to less than 1000</label>
+                <label><input type="radio" id = "check" name = "cal">1000+</label>
+            </form>
+        </div>
+        <div class = "primeSubmit" id = "bodyElements">
+            <button id = "submit">Submit</button>
+        </div>
+    </div>
+    <div class = "output">
+            <div class = "tab" id="bodyElements">
+                <div class = "Rec1">
+                </div>
+                <div class = "Rec2">
+                </div>
+                <div class = "Rec3">
+            </div>
+    </div>
+
+</body>
+</html>
