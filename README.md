@@ -4,7 +4,7 @@
 
 ### Live app link below:
 
-[Welcome to Your Meal Ideation Center](file:///Users/michaelletsgo/Documents/2021_General_Assembly/Project_1/index.html)
+[Welcome to Your Meal Ideation Center](https://michaelcodes23.github.io/Meal_Ideation_Center/)
 
 ### Purpose
 
