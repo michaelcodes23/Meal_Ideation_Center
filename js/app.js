@@ -227,7 +227,7 @@ $(()=>{
         }
            
             const text = $('<div>').attr("id","bodyElements").addClass("bottom");
-            text.append('<h4>').text("To learn about the recipes click on respective the image above!")
+            text.append('<h4>').text("To learn about more about the recipes or cooking instructions click on respective the image above!")
             // if($('.output').includes(text)){
             //     console.log("text class and button are already included")
             // }
